@@ -1,6 +1,6 @@
 {
   "name": "nodejsfirstexport",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "First nodejs package upload",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AshishBhoi/nodejs-first-export.git",
-    "repository": "https://www.npmjs.com/package/nodejsfirstexport",
-    "repository": "https://github.com/AshishBhoi/nodejsfirstexport"
+    "url": "git+https://github.com/AshishBhoi/nodejs-first-export.git"
+  },
+  "publishConfig": {
+    "registry": "https://www.npmjs.com/package/nodejsfirstexport",
+    "registry": "https://github.com/AshishBhoi/nodejsfirstexport"
   },
   "keywords": ["nodejs", "first"],
   "author": "Ashish Kumar Bhoi",
